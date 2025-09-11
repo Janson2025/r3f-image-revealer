@@ -6,13 +6,13 @@ function App() {
   return (
     <>
       <Canvas camera={{
-            position: [-4, 3, 6]
+            position: [3, 3, 3]
           }}
         >
         <color attach="background" args={['#f0f0f0']} />
         <OrbitControls />
         <mesh>
-          <boxGeometry args={[0.5, 0.5, 0.5]}/>
+          <boxGeometry args={[2, 2, 2]}/>
           <meshNormalMaterial />
         </mesh>
       </Canvas>
